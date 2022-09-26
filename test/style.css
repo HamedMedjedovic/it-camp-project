@@ -38,37 +38,42 @@ html * {
     color: black;
 
 }
-.header {
-    background-color: #17a2b8;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .font {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:white
 }
-.header_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header_title {
-    flex: 1;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.header_form {
-    flex: 1;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .clr{
     color: white;
+}
+.myheader{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #17a2b8;
+}
+.myheader_c{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+}
+.myheader_t{
+    flex: 1;
+    display: flex;
+    background-color: #17a2b8;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.myheader_i{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+.nzm {
+    height: 400px;
 }

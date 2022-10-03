@@ -1,0 +1,41 @@
+html *{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(bck.jpg);
+}
+.mp {
+    color:blue;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+    font-size: 40px;
+
+}
+.info {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.tekst {
+    width: 110%;
+    margin: 0%;
+    display: inline-block;
+    font-size: 20px;
+}
+.first-div {
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.slika {
+    display: inline-block;
+    
+}

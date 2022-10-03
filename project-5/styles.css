@@ -1,0 +1,35 @@
+body {
+    padding: 16px;
+}
+.mycard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dpt {
+    padding-top: 0;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding: 60px;
+    }
+    .mycard {
+        height: 70vh
+    }
+    .dpt {
+        padding-top: 100px;
+    }
+}
+
+.airplane {
+    width: 100%;
+}
+.kart {
+    padding-top: 50px;
+}
+.slicice {
+    height: 75px;
+    width: 75px;
+}

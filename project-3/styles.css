@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+    background-color: #4877fb;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 100px;
+
+
+}
+.main {
+    height: 100vh;
+    background-color: #cccccc;
+
+}
+.navigation-container {
+    background-color:  red;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.title-container {
+    background-color:4877fb;
+    flex: 5;
+    display: flex;
+}
+.nav-logo {
+    height: 80px;
+
+}
+.nav-links {
+    display: flex;
+}
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0 16px;
+}
+.title-text {
+    background-color: 4877fb;
+    flex: 4.5;
+    display: flex;
+    align-items: center;
+}
+.title-video {
+    background-color: 4877fb;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.project-button {
+    display: block;
+    background-color: rgb(43, 85, 148);
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.title-heading {
+    color: white;
+    font-size: 50px;
+
+}
+.description {
+    color: #333;
+
+}
+.p {
+    font-family: Arial;
+    color: lightgray;
+    font-size: 18px;
+}
+.cards-wraper {
+    background-color: white;
+    width: 20px;
+    padding: 40px;
+    height: 300px;
+
+}
+.card-link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: black;
+    background-color: gray;
+}
+.link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card-title {
+    margin: 16px 0;
+
+}
+.logo {
+    width: 20px;
+}
+.card {
+    background-color: white;
+    width: 20px;
+    padding: 40px;
+    height: 300px;
+    margin: 20px;
+
+}
+.card-container {
+    display: flex;
+    padding: 100px 100px;
+} 
+.p-1 {
+    padding: 8px;
+}
+.offer-section {
+    background-color: #abcabc;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-container {
+    width: 30%;
+}
+.offer-image {
+    width: 100%;
+    display: block;
+}
+.offer-messeage {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    
+}

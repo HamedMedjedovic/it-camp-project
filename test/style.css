@@ -4,13 +4,14 @@ html * {
 }
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: 17a2b8;
+    background-color: #3bacf0;
     position: fixed;
     width: 100%;
     z-index: 999;
-    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .navigation {
     display: flex;
@@ -21,13 +22,13 @@ html * {
 }
 .navigation a{
     text-decoration: none;
-    padding-left: 15px;
+    padding-left: 25px;
     color: white;
 }
 .nav-button {
     display: block;
     padding: 15px;
-    background-color: #17a2b8;
+    background-color: #3bacf0;
     border: 1px solid white;
     color: white;
     border-radius: 5px;
@@ -49,7 +50,7 @@ html * {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #17a2b8;
+    background-color: #3bacf0;
 }
 .myheader_c{
     display: flex;
@@ -60,13 +61,40 @@ html * {
 .myheader_t{
     flex: 1;
     display: flex;
-    background-color: #17a2b8;
+    background-color: #3bacf0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     margin-left: 200px;
-    margin-right: 50px;
+    margin-right: -20px;
+}
+.nzm-vise{
+    margin-right: 180px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.meineb{
+    display: block;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.meineb:hover{
+    transition: 1s;
+    color: white;
+    background-color: #3bacf0;
+}
+.sta-znam{
+    display: flex;
+    flex-direction: row;
+    margin-right: 280px;
+}
+.fs{
+    font-size: 16px
 }
 .myheader_i{
     flex: 1;
@@ -76,4 +104,356 @@ html * {
 }
 .nzm {
     height: 400px;
+}
+.mysection{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 50px;
+    border: white solid 1px;
+}
+.logo :hover{
+    border:#3bacf0;
+}
+.section_cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+.section_card{
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+.section_cards a{
+    text-decoration: none;
+}
+.section_card a p{
+    color: gray;
+}
+.section_card a h3{
+    color: black;
+}
+.section_card a h3:hover{
+    color: #3bacf0;
+}
+.st{
+    padding-top: 175px; 
+}
+.nes {
+    padding-left: 0;
+    margin-top: 30px;
+}
+.mysection-2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ebecf5;
+}
+.sec-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+.sec-div a{
+    text-decoration: none;
+    margin: 0 16px 20px 0;
+    background-color: white;
+}
+.ovo{
+    border: white solid 1px;
+    padding: 25px 90px;
+    border-radius: 8px;
+    color: black;
+}
+.sec-div a:active{
+    background-color: #3bacf0;
+    color: white;
+    transition: 0.3s;
+}
+.sec-div a:hover{
+    color: black;
+}
+.ono-nesto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start   ;
+}
+.ono-sto-pise{
+    flex: 1;
+    display:block
+}
+.ona-slika{
+    flex: 1;
+}
+.nvrjm{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+.jos{
+    color: gray;
+}
+.mysection-3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logcina{
+    height: 500px;
+}
+.moje-m{
+    margin: 50px 0 20px;
+}
+.mysection-4{
+    height: 80vh;
+    background-color: #ebecf5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ona-slika-2{
+    height: 350px;
+}
+
+.mysection-6{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ebecf5;
+    flex-direction: column;
+}
+.feedback{
+    background-color: white;
+    height: 200px;
+    width: 550px;
+    margin-left: 25px;
+    border-radius: 10px;
+    justify-content: center;
+}
+.nes-novo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.ft{
+    font-size: 14px;
+    text-align: left;
+}
+.mrm{
+    margin-right: 35px;
+}
+.nes-moe{
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.suph{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tobe{
+    margin-bottom: 40px;
+}
+.feedback a{
+    text-decoration: none;
+    color: black;
+}
+.feedback a:hover{
+    color: #3bacf0;
+}
+.mysection-7{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mydiv{
+    flex-direction: column;
+}
+.btn-n{
+    display: block;
+    padding: 15px;
+    background-color: #3bacf0;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.ona-slika-3{
+    height: 350px;
+}
+.mysection-8{
+    background-color: #3bacf0;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.myfooter{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align:left ;
+}
+.myfooter p{
+    text-align: left;
+}
+.rowss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: 100px;
+}
+.rowss a{
+    text-decoration: none;
+}
+.nes-moje{
+    text-align: left;
+}
+.nesto{
+    margin-right: 13px;
+}
+.nesto svg{
+    margin-right: 7px;
+}
+.section-six {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-six .sect-six-title {
+    text-align: center;
+
+}
+
+.section-six .offer-tab {
+    border: 1px solid #eaf3fc;
+    transition:all  0.7s ease-in-out !important;
+    width: auto;
+}
+.section-six  .sect-six-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section-six .sect-six-title p {
+    font-size: 16px;
+    color: #777;
+    max-width: 700px;
+    margin:auto;
+    margin-bottom: 40px;
+}
+.section-six .price-plan .title-offer h4 {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 0;
+    font-weight: 700;
+
+}
+.section-six .price-plan .title-offer h4:hover{
+    color: white;
+}
+.section-six .offer-list ul {
+    margin-top: 30px;
+}
+.section-six .offer-list ul li {
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.section-six .offer-list ul li a {
+    text-decoration: none ;
+    color: #777
+}
+
+.section-six .offer-price {
+    max-width: 350px;
+    margin: 0 auto 40px;
+    background: #edf6ff;
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section-six .offer-price span {
+    font-size: 72px;
+    font-weight: 650;
+    color: #222;
+
+
+}
+.section-six .offer-price span sub  {
+    font-size: 14px;
+    font-weight: 500;
+    color: #777;
+    width: 10px;
+
+}
+
+@media (max-width:992px) {
+    .section-six {
+    height: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    }
+
+    .section-six .offer-tab {
+    width: auto;
+    height: auto;
+    margin: auto;
+    }
+}  
+.section-six .offer-tab:hover .title-offer {
+    background-image: linear-gradient(to right top , #4dabff 20%,#62ddff 70%);
+    color: white;
+}
+.section-six .offer-tab:hover .offer-price {
+    background-image: linear-gradient(to right top , #4dabff 20%,#62ddff 70%);
+    color: white;
+}
+.section-six .offer-tab:hover .get-started-btn {
+background-image: linear-gradient( to right, white ,rgb(226, 225, 225));
+    color: black;
+}
+.section-six .offer-tab:hover span sub  {
+    color: white;
+}
+.section-six .offer-tab:hover span   {
+    color: white;
+}
+.paj{
+    text-align: center;
+}
+.paj:hover{
+    color: white;
 }
